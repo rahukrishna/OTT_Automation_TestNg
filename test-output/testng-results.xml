@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-27T11:41:16 IST" name="Suite" finished-at="2023-04-27T11:41:16 IST" duration-ms="20">
+  <suite started-at="2023-04-27T17:38:22 IST" name="Suite" finished-at="2023-04-27T17:40:15 IST" duration-ms="112879">
     <groups>
     </groups>
-    <test started-at="2023-04-27T11:41:16 IST" name="Test" finished-at="2023-04-27T11:41:16 IST" duration-ms="20">
+    <test started-at="2023-04-27T17:38:22 IST" name="Test" finished-at="2023-04-27T17:40:15 IST" duration-ms="112879">
+      <class name="OTT_Automation.TestNg.TestCase">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:OTT_Automation.TestNg.TestCase@46cdf8bd]" started-at="2023-04-27T17:38:21 IST" name="startTest" finished-at="2023-04-27T17:38:22 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:OTT_Automation.TestNg.TestCase@46cdf8bd]" started-at="2023-04-27T17:38:22 IST" name="beforeTest" finished-at="2023-04-27T17:39:04 IST" duration-ms="42133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="User_able_to_login(java.lang.String,java.lang.String)[pri:0, instance:OTT_Automation.TestNg.TestCase@46cdf8bd]" started-at="2023-04-27T17:39:04 IST" name="User_able_to_login" finished-at="2023-04-27T17:39:59 IST" duration-ms="54556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9074035006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#ranjini01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_able_to_login -->
+        <test-method signature="f2()[pri:0, instance:OTT_Automation.TestNg.TestCase@46cdf8bd]" started-at="2023-04-27T17:39:59 IST" name="f2" finished-at="2023-04-27T17:39:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:OTT_Automation.TestNg.TestCase@46cdf8bd]" started-at="2023-04-27T17:39:59 IST" name="afterTest" finished-at="2023-04-27T17:40:15 IST" duration-ms="15892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:OTT_Automation.TestNg.TestCase@46cdf8bd]" started-at="2023-04-27T17:40:17 IST" name="endTest" finished-at="2023-04-27T17:40:23 IST" duration-ms="6025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- OTT_Automation.TestNg.TestCase -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
 	  <parameter name="username" value="9074035006"/>
 	  <parameter name="password" value="#ranjini01"/>
+	  <parameter name="movieName" value="#ranjini01"/>
     <classes>
       <class name="OTT_Automation.TestNg.TestCase"/>
     </classes>
