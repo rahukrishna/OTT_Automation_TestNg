@@ -17,8 +17,7 @@ public class AmazonPrimePage extends BaseClass {
 		  super(driver);
 		// TODO Auto-generated constructor stub
 	}
-	//
-	  ////span[contains(text(),'Sign in to join Prime')]
+	/* Locators of amazon Prime page*/
 	private String navigatetosigninButton = "//span[contains(text(),'Sign in')]/ancestor::button";
 	private String userNameTextbox = "//input[contains(@id,'email')]";
 	private String passwordTextbox = "//input[contains(@id,'pass')]";
@@ -31,7 +30,7 @@ public class AmazonPrimePage extends BaseClass {
 	private String moviePageHeader ="//h1";
 	public String playButtton ="//*[@id='dv-action-box']//span/parent::a";
 	
-	
+	/*Methods Specific to Amazon Prime*/
 	 public void navigateToAmazon(){
 	       launchURL("https://www.primevideo.com/");
 	    }

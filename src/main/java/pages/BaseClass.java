@@ -28,6 +28,7 @@ public class BaseClass {
 	        
 	    }
 	   
+	   /*General Methods*/
 		public BaseClass(WebDriver driver){
 	    	BaseClass.driver = driver;
 	    }
@@ -55,7 +56,6 @@ public class BaseClass {
 	    }
 	    
 	    private void waitForElement (String locator){
-			//return locator;
 	       
 	  	  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator))); 
 	    }
